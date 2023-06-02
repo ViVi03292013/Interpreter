@@ -4,6 +4,7 @@
 #include <stack>
 #include <vector>
 #include <map>
+#include "PostfixSpelling.h"
 
 using namespace std;
 
@@ -247,15 +248,6 @@ void adr_com(string fileout, char symbol, int mass[])
 	file.close();
 }
 
-
-int com_input(char variable)
-{
-	int x;
-	cout << "Enter the value of the variable " << variable << ':' << endl;
-	cin >> x;
-	return x;
-}
-
 //
 //int func()
 //{
@@ -318,7 +310,7 @@ int main()
 
 	//search_comm("C:\\Test1.txt", "C:\\Test2.txt", ch);
 	//address_command("C:\\Test2.txt", ch);
-	adr_com("C:\\Test2.txt", ch, Params);
-
+	//adr_com("C:\\Test2.txt", ch, Params);
+	PosSpel("C:\\Test2.txt", ch);
 
 }

@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication16.cpp" />
+    <ClCompile Include="PostfixSpelling.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PostfixSpelling.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
